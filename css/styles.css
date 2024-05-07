@@ -348,7 +348,6 @@ img{
 @media screen and (min-width: 1023px){
     .nav{
         height: calc(var(--header-height) + 2rem);
-        width: 100%;
         column-gap: 3rem;
     }
     .nav__close,

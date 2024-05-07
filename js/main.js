@@ -12,17 +12,17 @@ navClose.addEventListener('click', () => {
    navMenu.classList.remove('show-menu');
 });
 /* ============== SEARCH ================ */
-const   search = document.getElementById('search'),
+/*const   search = document.getElementById('search'),
         searchBtn = document.getElementById('search-btn'),
         searchClose = document.getElementById('search-close');
-/* Search show */
+// Search show
 searchBtn.addEventListener('click', () => {
     search.classList.add('show-search');
 });
-/* Search hidden */
+// Search hidden
 searchClose.addEventListener('click', () => {
     search.classList.remove('show-search');
-});
+});*/
 /* ============== LOGIN ================= */
 const   login = document.getElementById('login'),
         loginBtn = document.getElementById('login-btn'),
